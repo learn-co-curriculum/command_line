@@ -1,49 +1,67 @@
-# Prerequisites
+experiment with how you participate in lectures, take notes, dont take notes, we’re going to be recording them, posting notes
 
-Include what students are assumed to know heading into this lecture.
+terminal
 
-# Objectives
+iterm2
 
-Students will be able to:
+  * bash/zsh -> what is a shell? wikipedia 
+    * <http://en.wikipedia.org/wiki/Shell_%28computing%29>
+  * bash profile/bashrc
+  * ENV variables
+  * PS1
+  * echo
+  * PATH
+  * /etc/paths
+  * binaries  
+  * which ruby
+  * how do gems work from the command line? (rspec)
+  * homebrew 
+    * brew info
+    * brew link
+    * brew doctor
+    * /usr/local/cellar
+  * symlinks 
+    * ls -la /usr/local/bin  
+  * gcc
+  * subl command line shortcut
+  * xcode command line tools (clang or a c compiler)
+  * rvm
+  * [history of dotfiles](http://pub.gajendra.net/2012/09/dotfiles)
+  * .gemrc
+  * .rvm
+  * .rvmrc
+  * .irbrc
+  * .rdebugrc
+  * debugger (pry)
+  * aliases (show flatiron bash profile)
+  * tab completion
+  * git tab completion
+  * gitignore
+  * git colors
 
-  * Insert *concrete* skills students will walk away with.
-  * Even better, write a lab/quiz in here that tests these skills
+  * UNIX - do one thing well
+  * vim
+  * composition/synthesis, DRY
 
-Students will understand:
-
-  * Add high level concepts
-
-# Script
-
-## Presenting The Conflict
-
-What problem is this lecture solving? Our students are intelligent and need to
-know *why* they are learning something before investing effort.
-
-## Grounding In What We Know
-
-Before you move on, make sure we review the relavent materials needed. For
-example if you are about to go into Objects, do a quick review of what a method
-is.
-
-## New Material
-
-### Topic
-
-Be specific! [Link to small code](code_samples/001.sample.rb) examples in the `code_samples` folder that
-demonstrate what you are teaching.
-
-#### Common Metaphors/Techniques
-
-Cover any metaphors or teaching techniques that work well.
-
-### Topic 2
-
-## Conclusion
-
-An effective conclusion should:
-
-  * Reemphasizes and clarifies the objective that the students have learned.
-  * Reemphasizes the significance of that objective.
-  * Assesses students’ mastery of—or progress toward—that objective (if not done earlier). 
-  * Possibly add a teaser for the next "conflict"
+  * unixy commands
+  * flags ( - -help, ls -la, rm -rf) 
+    * chmod
+    * chown
+  * touch
+  * ps aux
+  * kill
+  * grep
+  * ls
+  * cd (not a binary)
+  * pwd
+  * whoami
+  * mkdir
+  * cp
+  * mv
+  * less
+  * rm
+  * man
+  * find . -name "*.txt”
+  * (piping)[http://ryanstutorials.net/linuxtutorial/piping.php]
+    * client => cat somefile.mp3 | pv -rb | nc 192.168.1.10 3000   
+server => nc -l 0.0.0.0 3000 | pv -rb > [Tim-Moxey-Nuun-on-Mixergy.mp](http://Tim-Moxey-Nuun-on-Mixergy.mp)3
